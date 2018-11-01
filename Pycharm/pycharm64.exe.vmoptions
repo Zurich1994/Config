@@ -1,0 +1,14 @@
+-Xms4096m
+-Xmx4096m
+-XX:ReservedCodeCacheSize=1024m
+-XX:+UseCompressedOops
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-Dfile.encoding=UTF-8
+
+-Duser.language=en
